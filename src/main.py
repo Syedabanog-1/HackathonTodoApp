@@ -1,0 +1,9 @@
+from todo_app import TodoApp
+
+def main():
+    """Main entry point for the Todo Console App."""
+    app = TodoApp()
+    app.run()
+
+if __name__ == "__main__":
+    main()
